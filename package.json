@@ -17,8 +17,8 @@
     "format:check": "prettier --check src/**/*.{js,jsx,ts,tsx,json,css,md}",
 
     "test": "jest",
-    "test:unit": "jest --testPathPattern=unit",
-    "test:integration": "jest --testPathPattern=integration",
+    "test:unit": "jest --testPathPatterns=unit",
+    "test:integration": "jest --testPathPatterns=integration",
     "test:coverage": "jest --coverage",
 
     "quality": "npm run type-check && npm run lint && npm run format:check && npm run test:coverage"

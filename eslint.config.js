@@ -1,14 +1,14 @@
-import js from '@eslint/js';
-import prettier from 'eslint-config-prettier';
+const js = require('@eslint/js');
+const prettier = require('eslint-config-prettier');
 
-export default [
+module.exports = [
   js.configs.recommended,
   prettier,
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
     languageOptions: {
       ecmaVersion: 'latest',
-      sourceType: 'module'
+      sourceType: 'commonjs'
     },
     rules: {}
   }

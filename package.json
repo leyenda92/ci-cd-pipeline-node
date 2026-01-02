@@ -2,7 +2,7 @@
   "name": "modulo_3_3_3",
   "version": "1.0.0",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -2,3 +2,6 @@ node_modules/
 coverage/
 build/
 .env
+.next
+out
+node_modules
